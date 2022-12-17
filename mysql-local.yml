@@ -15,7 +15,7 @@ spec:
       - image: mysql:5.6
         name: mysql
         env:
-          # Use secret in real usage
+          # Use secret in real environment
         - name: MYSQL_ROOT_PASSWORD
           value: Senha123
         - name: MYSQL_DATABASE

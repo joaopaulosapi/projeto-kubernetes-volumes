@@ -19,6 +19,7 @@ spec:
   #Deprecated - Recycle, Delete, Retain
   persistentVolumeReclaimPolicy: Recycle
   storageClassName: slow
+  # Install nfs in server
   mountOptions:
     - hard
     - nfsvers=4.1
